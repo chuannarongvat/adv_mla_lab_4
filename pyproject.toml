@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adv-mla-lab-4"
+version = "0.1.0"
+description = ""
+authors = ["chuannarongvat <narongvat.chingpayakmon@student.uts.edu.au>"]
+readme = "README.md"
+packages = [{include = "adv_mla_lab_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "2.0.1"
+scikit-learn = "1.2.2"
+jupyterlab = "3.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
